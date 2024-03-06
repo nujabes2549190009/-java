@@ -1,0 +1,14 @@
+class WhileTest {
+    public static void main(String[] args) {
+        for(float day = 0, money = 0;; day++ ){     //被摆了一道:初始化只能一个数据类型；
+			if(day != 0 && day % 5 == 0)
+                money -= 6;
+            else
+                money += 2.5;
+            if(money >= 100){
+                System.out.println((int)day);
+                break;
+            }
+		}
+    }
+}
