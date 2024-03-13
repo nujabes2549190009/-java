@@ -1,0 +1,18 @@
+public class Ni {
+
+    public static void main(String[] args) {
+        System.out.println('a' + 12.012 + 'a' + "adsf");       //206.012adsf
+        System.out.println('a' + "adsf");                      //aadsf
+        System.out.println('a' + 12.012 + 12);                 //121.012
+        System.out.println("adsf" + 'a' + 12.012);             //adsfa12.012
+           
+         /*
+        关于输出的格式问题可以用数据类型的分类来解释
+         /*
+                例如：
+                    0、基础数据和引用数据优先级并列
+                       \but:如果基础数据在字符串后,则输出皆为字符串的拼接。
+                    1、整数、浮点数和字符可以合并成数字(order:浮点型->整型->字符型);
+         */
+    }
+}
