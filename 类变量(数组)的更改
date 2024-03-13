@@ -1,0 +1,16 @@
+public class If {
+    public static int[] a = new int[]{1};
+    public static void main(String[] args){
+        If sc = new If();
+//        int a = 9;
+        sc.scd(a);              //学的欠佳，a实际就是数组变量(引用类型);
+        int x = Math.max(23,54);
+        System.out.println(a[0]);
+    }
+    public void scd(int []a){
+        a[0] = 3;
+    }
+//    public int max(int a,int b){
+//        return a>b?a:b;
+//    }
+}
