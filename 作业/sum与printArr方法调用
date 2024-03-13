@@ -1,0 +1,28 @@
+public class Ni {
+
+    public static void main(String[] args) {
+        Ni sc = new Ni();
+            int x = 3,y = 4;
+            int []s = new int[]{1,3,6,4,5};
+            System.out.println(sc.sum(x,y));
+            sc.printArr(s);
+
+
+       }
+    void printArr(int []a){
+        System.out.print('[');
+        for(int i :a)
+        {
+            if(i != a.length)
+            System.out.print(i+",");
+            else
+            System.out.print(i);
+        }
+        System.out.print(']');
+
+
+    }
+    int sum(int a,int b){
+        return a+b;
+    }
+}
